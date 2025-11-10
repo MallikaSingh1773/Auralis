@@ -32,12 +32,15 @@ Auralis/
 ├── backend/
 │   ├── auth/
 │   ├── (API and intent logic)
+│
 ├── frontend/
 │   ├── index.html
 │   ├── script.js
+│
 ├── main.py
 ├── run.py
 └── README.md
+
 
 ## How to Run
 
