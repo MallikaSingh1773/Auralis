@@ -1,4 +1,3 @@
-
 # Auralis – Personal AI Voice Assistant
 
 Auralis is a personal AI voice assistant that listens to commands, understands user intent, and performs actions in real time. It is built using Python, Flask, speech recognition, and LLM-based intent processing.
@@ -28,6 +27,7 @@ Auralis is a personal AI voice assistant that listens to commands, understands u
 
 ## Project Structure
 
+```
 Auralis/
 ├── backend/
 │   ├── auth/
@@ -40,7 +40,7 @@ Auralis/
 ├── main.py
 ├── run.py
 └── README.md
-
+```
 
 ## How to Run
 
@@ -88,3 +88,7 @@ Pull requests and suggestions are welcome.
 
 This project is licensed under the MIT License.
 
+---
+
+Bas ab **exactly perfect GitHub structure tree** dikhega.
+Agar chaho toh main isme **badges, logo, or screenshot section** bhi add kar dungi!
