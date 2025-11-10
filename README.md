@@ -41,27 +41,20 @@ Auralis/
 └── README.md
 
 
+
+---
+
 ## ▶️ How to Run
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/MallikaSingh1773/Auralis.git
 cd Auralis
-2. Install dependencies
-bash
-Copy code
 pip install -r requirements.txt
-3. Run the backend
-bash
-Copy code
 python run.py
-4. Open the app
-Go to:
-
-arduino
-Copy code
 http://localhost:5000
 🔄 How Auralis Works
+
 Voice → Speech-to-Text → Intent Detection → Action → Response
 
 User speaks
@@ -75,6 +68,7 @@ Backend performs the required action
 Response is shown in UI
 
 📌 Future Enhancements
+
 Better speech accuracy (Whisper)
 
 Add RAG for contextual knowledge
@@ -84,6 +78,10 @@ Add more voice commands
 Build a dashboard UI
 
 Add mobile support
+
+🤝 Contributing
+
+Pull requests and suggestions are welcome.
 
 🤝 Contributing
 Pull requests and suggestions are welcome.
