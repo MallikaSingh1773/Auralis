@@ -1,123 +1,91 @@
-Bilkul! Yeh **clean, copy-paste-ready README.md** format hai — directly GitHub pe daal sakti ho, koi edit ki zarurat nahi.
-
----
-
-```markdown
 # Auralis – Personal AI Voice Assistant
 
-Auralis is a lightweight personal AI voice assistant that listens to your voice, understands commands, and performs actions in real time. It combines speech recognition, natural language understanding, and a Flask-powered backend to deliver a smooth assistant experience.
+Auralis is a personal AI voice assistant that listens to commands, understands user intent, and performs actions in real time. It is built using Python, Flask, speech recognition, and LLM-based intent processing. The goal of Auralis is to provide a lightweight “Jarvis-like” assistant that can be extended easily.
 
 ---
 
 ## 🚀 Features
-- 🎙 **Real-time Speech Recognition**  
-  Converts your voice to text instantly.
-
-- 🧠 **Intent Understanding (LLM-based)**  
-  Understands what the user wants using an AI model.
-
-- ⚙️ **Action Execution**  
-  Performs actions like searching, responding, or running tasks.
-
-- 🌐 **Backend + Frontend Integration**  
-  Flask backend + simple frontend UI for interaction.
-
-- 🛠 **Modular Architecture**  
-  Easy to add new commands or extend functionality.
+- 🎙 Real-time speech recognition  
+- 🧠 LLM-based intent understanding  
+- ⚙️ Executes system-level actions  
+- 🌐 Flask backend + simple frontend UI  
+- 🛠 Modular and easy to extend  
 
 ---
 
 ## 🛠 Tech Stack
-
 **Backend**
 - Python  
 - Flask  
-- SpeechRecognition + PyAudio  
-- OpenAI / LLM Integration  
+- SpeechRecognition & PyAudio  
+- OpenAI/LLM integration  
 
 **Frontend**
-- HTML  
-- CSS  
-- JavaScript  
+- HTML, CSS, JavaScript  
 
 ---
 
 ## 📁 Project Structure
-```
-
 Auralis/
 │
 ├── backend/
-│   ├── auth/
-│   ├── ... (API logic, speech, intent handling)
+│ ├── auth/
+│ ├── (API + intent logic)
 │
 ├── frontend/
-│   ├── index.html
-│   ├── script.js
+│ ├── index.html
+│ ├── script.js
 │
 ├── main.py
 ├── run.py
 └── README.md
 
-````
-
----
 
 ## ▶️ How to Run
 
-### 1. Clone the Repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/MallikaSingh1773/Auralis.git
 cd Auralis
-````
-
-### 2. Install Dependencies
-
-```bash
+2. Install dependencies
+bash
+Copy code
 pip install -r requirements.txt
-```
-
-### 3. Start the Server
-
-```bash
+3. Run the backend
+bash
+Copy code
 python run.py
-```
+4. Open the app
+Go to:
 
-### 4. Open the App
-
-Open your browser and go to:
-
-```
+arduino
+Copy code
 http://localhost:5000
-```
+🔄 How Auralis Works
+Voice → Speech-to-Text → Intent Detection → Action → Response
 
----
+User speaks
 
-## 🔄 How It Works
+Auralis converts speech to text
 
-**Voice → Text → Intent → Action → Response**
+LLM detects the user’s intent
 
-1. You speak a command
-2. Auralis converts speech to text
-3. LLM understands the intent
-4. Backend performs the action
-5. Output is shown in the UI
+Backend performs the required action
 
----
+Response is shown in UI
 
-## 📌 Future Enhancements
+📌 Future Enhancements
+Better speech accuracy (Whisper)
 
-* Integrate Whisper for better speech accuracy
-* Add RAG-based knowledge responses
-* Add GUI dashboard
-* Add more system-level actions
-* Add mobile-friendly UI
+Add RAG for contextual knowledge
 
----
+Add more voice commands
 
-## 🤝 Contributing
+Build a dashboard UI
 
-Contributions are welcome!
-Feel free to submit issues or pull requests.
+Add mobile support
+
+🤝 Contributing
+Pull requests and suggestions are welcome.
 
 
