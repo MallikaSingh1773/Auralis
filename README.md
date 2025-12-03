@@ -85,8 +85,3 @@ Voice → Speech to Text → Intent Detection → Action → Response
 Pull requests and suggestions are welcome.
 
 
-
----
-
-Bas ab **exactly perfect GitHub structure tree** dikhega.
-Agar chaho toh main isme **badges, logo, or screenshot section** bhi add kar dungi!
